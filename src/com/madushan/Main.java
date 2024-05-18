@@ -1,8 +1,6 @@
 package com.madushan;
 
-import com.madushan.exercise.CarsAssemble;
-import com.madushan.exercise.Dart;
-import com.madushan.exercise.LogLevels;
+import com.madushan.exercise.*;
 
 public class Main {
 
@@ -18,8 +16,14 @@ public class Main {
 
 //        System.out.println(carsAssemble.workingItemsPerMinute(6));
 
-        Dart dart = new Dart();
-        int score = dart.score(7.1,-7.1);
-        System.out.println(score);
+//        Dart dart = new Dart();
+//        int score = dart.score(7.1,-7.1);
+//        System.out.println(score);
+
+//        SpaceAge spaceAge = new SpaceAge();
+//        spaceAge.ageInPlanet(1_000_000_000);
+
+        SquareRoot squareRoot = new SquareRoot();
+        System.out.println("Squar Root is :" + squareRoot.sqRoot(196));
     }
 }
